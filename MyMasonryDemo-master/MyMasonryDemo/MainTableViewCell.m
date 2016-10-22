@@ -65,6 +65,9 @@ er
          
          
          
+         
+         
+         
          :^(MASConstraintMaker *make) {
             make.edges.equalTo(topView).insets(UIEdgeInsetsMake(12, 12, 12, 12)); //各边偏移12个点
         
