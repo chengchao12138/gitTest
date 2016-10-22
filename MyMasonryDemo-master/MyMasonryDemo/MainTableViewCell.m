@@ -61,7 +61,11 @@ er
             make.width.and.height.equalTo(self.contentView.mas_height);
         }];
         
-        [_theImageV mas_makeConstraints:^(MASConstraintMaker *make) {
+        [_theImageV mas_makeConstraints
+         
+         
+         
+         :^(MASConstraintMaker *make) {
             make.edges.equalTo(topView).insets(UIEdgeInsetsMake(12, 12, 12, 12)); //各边偏移12个点
         
             嘎嘎嘎
