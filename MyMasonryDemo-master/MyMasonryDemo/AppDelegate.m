@@ -17,6 +17,12 @@
     [self.window makeKeyAndV
 - (void)applicationWillResignActive:(UIAppl
                                      
+                    
+                                     
+                                     
+                                     
+                                     
+                                     
                                      
                                      
                   ication *)application {
