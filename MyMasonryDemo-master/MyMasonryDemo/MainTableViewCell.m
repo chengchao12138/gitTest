@@ -49,12 +49,7 @@ er
         
         _nameL = [[UILabel alloc] init];
         _nameL.font = [UIFont systemFontOfSize:18];
-        [self.contentView addSubview:_nameL];
-        
-        UIView *topView = [UIView new];
-        topView.backgroundColor = [UIColor clearColor];
-        [self.contentView addSubview:topView];
-        
+       
         /* 约束关系 */
         [topView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerY.equalTo(self.contentView);
