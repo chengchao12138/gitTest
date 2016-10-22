@@ -64,16 +64,14 @@ er
         [_theImageV mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(topView).insets(UIEdgeInsetsMake(12, 12, 12, 12)); //各边偏移12个点
         
-            
+            嘎嘎嘎
             。。。。
             make.center.equalTo(topView);
         }];噜噜噜
         Luis
         [_nameL mas_makeConstraints:^(MASConstraintMaker *make) {
             make.centerY.equalTo(self.contentView);
-            make.left.equalTo(_theImageV.mas_right).insets(kPadding);
-        }];
-        
+=        }];
         
     }
     return self;
