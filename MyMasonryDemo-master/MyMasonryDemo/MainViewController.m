@@ -11,7 +11,13 @@
 #import "Masonry.h"
 
 // 获取屏幕高度
-#define kDeviceHeight [UIScreen mainScreen].bounds.size.height
+#define kDeviceHeight [UIScreen mainScreen].t
+
+
+
+
+
+bounds.size.height
 // 获取屏幕宽度
 #define kDeviceWidth  [UIScreen mainScreen].bounds.size.width
 
