@@ -14,19 +14,30 @@
 // 获取屏幕宽度
 #define kDeviceWidth  [UIScreen mainScreen].bounds.size.width
 
+
+
+
 static UIEdgeInsets const kPadding = {20, 20, 20, 20};
 
 @interface MainTableViewCell ()
 
-@property (nonatomic,strong) UIImageView *theImageV;
+@property (n
+           
+           
+           onatomic,strong) UIImageView *theImageV;
 @property (nonatomic,strong) UILabel *nameL;
 
 @end
 
 
+
+
+
 @implementation MainTableViewCell
 
-- (id) initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+- (id) initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifi
+
+er
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
@@ -52,6 +63,9 @@ static UIEdgeInsets const kPadding = {20, 20, 20, 20};
         
         [_theImageV mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.equalTo(topView).insets(UIEdgeInsetsMake(12, 12, 12, 12)); //各边偏移12个点
+        
+            
+            
             make.center.equalTo(topView);
         }];
         
@@ -63,6 +77,8 @@ static UIEdgeInsets const kPadding = {20, 20, 20, 20};
         
     }
     return self;
+    
+    
 }
 
 - (void)setTheImage:(UIImage *)image andTitle:(NSString *)title
